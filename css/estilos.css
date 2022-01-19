@@ -1,0 +1,74 @@
+.nav {background-color: white;}
+
+.logo { border-radius: 73%;
+   height:50px;
+}
+.nav-item {margin: 0% 5%;}
+.espacioBlanco{
+    height: 10vh;
+    background-color: white;
+}
+
+/* .h2 {
+    position: absolute;
+    color: white;
+    top: 70%;
+    right:100px
+
+    ;
+} */
+.bor img {
+    height: 100px;
+    padding: 25px;
+    margin: 0px;
+    text-align: center;
+}
+
+.blanco {
+    height: 50px;
+}
+.altura {
+    height: 80px;
+}
+
+
+
+.colorLetras {
+    color: rgb(31, 138, 31);
+}
+
+.colorLetrasNo {
+    color: red;
+    
+}
+
+.navbar {
+    flex-direction: row;
+    align-content: flex-end;
+
+}
+
+.redes {
+    height: 30px;
+}
+
+.footerInfo {
+    margin: 30px 60px;
+}
+
+
+
+@media(min-width:769px) {
+
+    .altura {
+        height: 150px;
+    }
+.alto{
+    height: 450px;
+ 
+}
+
+.logo{
+    height: 100px;
+}
+}
