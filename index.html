@@ -17,12 +17,15 @@
 
 <body>
     <!-- encabezado -->
-    <header class="container-fluid altura ">
+    <header class="container-fluid altura " style="
+    position: fixed;
+    z-index: 100;
+    background: white;">
         <!-- navegador -->
 
         <div class="row" style=" align-items: center; text-align-last: end;">
-            <div class="col-2 navbar-light bg-white " style="">
-                <a href="./index.html"> <img src="./imagenes/logo.jpg" class="logo col-xs-4  " alt="logo" ></a>
+            <div class="col-2 navbar-light bg-white ">
+                <a href="./index.html"> <img src="./imagenes/logo.jpg" class="logo col-xs-4  " alt="logo"></a>
 
             </div>
 
@@ -32,16 +35,16 @@
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./tablas.html" target="_blank">Tablas</a>
+                                <a class="nav-link active negrita" aria-current="page" href="./tablas.html" target="_blank">Tablas</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                                <a class="nav-link negrita" href="./nosotros.html">Nosotros</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle btn btn-warning" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                                <a class="nav-link dropdown-toggle btn btn-warning negrita" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   Accesorios
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -116,14 +119,14 @@
                 </div>
 
                 <div class="alert alert-info" role="alert">
-                    <h6>Hecha un vistazo!</h6>
+                    <h6 class="h6">Hecha un vistazo!</h6>
                 </div>
 
 
             </section>
             <section class="team text-center">
                 <div class="container p-5">
-                    <h2 class="text-info">TABLAS</h2>
+                    <h2 class="text-info trasladar">TABLAS</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing eli</p>
                     <div class="row">
                         <!-- fotos del catalogo -->
@@ -131,7 +134,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla1.jpg" class="img-fluid" alt="tabla">
+                            <img src="./imagenes/tabla1.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Tabla Surf
                                 Rip Curl Print</h3>
                             <p>$55,989</p>
@@ -141,7 +144,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla2.jpg" class="img-fluid catalogo" alt="casco">
+                            <img src="./imagenes/tabla2.jpg" class="img-fluid  resaltar" alt="casco">
                             <h3>Tabla Surf
                                 Rip Curl Hypto</h3>
                             <p>$47,200</p>
@@ -151,7 +154,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla3.jpg" class="img-fluid" alt="tabla">
+                            <img src="./imagenes/tabla3.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Tabla Surf
                                 Rip Curl Print Fly</h3>
                             <p>y$50,200SW</p>
@@ -161,7 +164,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla4.jpg" class="img-fluid tabla" alt="tabla">
+                            <img src="./imagenes/tabla4.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Surf Soft Shockn Blue Eps 5' 5'</h3>
                             <p>34,545</p>
                             <p class="colorLetras">Stok</p>
@@ -170,7 +173,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla5.jpg" class="img-fluid tabla" alt="tabla">
+                            <img src="./imagenes/tabla5.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Avengers Surf Bodyboard </h3>
                             <p>$40,700</p>
                             <p class="colorLetras">Stok</p>
@@ -179,7 +182,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla6.jpg" class="img-fluid tabla" alt="tabla">
+                            <img src="./imagenes/tabla6.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Surf Soft Pro Shockn Blue 6' 0'</h3>
                             <p>$72,300</p>
                             <p class="colorLetras">Stok</p>
@@ -188,7 +191,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla1.jpg" class="img-fluid tabla" alt="tabla">
+                            <img src="./imagenes/tabla1.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Tabla De Surf Mar Cristal 6'</h3>
                             <p>$43,400</p>
                             <p class="colorLetras">Stok</p>
@@ -197,7 +200,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/tabla10.jpg" class="img-fluid tabla" alt="tabla">
+                            <img src="./imagenes/tabla10.jpg" class="img-fluid resaltar" alt="tabla">
                             <h3>Tabla De Surf Torq Longboard Fade</h3>
                             <p>$22,340</p>
                             <p class="colorLetrasNo">No Stok</p>
@@ -206,7 +209,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/casco1.jpg" class="img-fluid tabla" alt="casco">
+                            <img src="./imagenes/casco1.jpg" class="img-fluid resaltar" alt="casco">
                             <h3>Casco Crazy Diacono</h3>
                             <p>$8,450</p>
                             <p class="colorLetrasNo">No Stok</p>
@@ -215,7 +218,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/casco2.jpg" class="img-fluid tabla" alt="casco">
+                            <img src="./imagenes/casco2.jpg" class="img-fluid resaltar" alt="casco">
                             <h3>Casco Crazy Safety</h3>
                             <p>$7,500</p>
                             <p class="colorLetras">Stok</p>
@@ -225,7 +228,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/casco3.jpg" class="img-fluid tabla" alt="casco">
+                            <img src="./imagenes/casco3.jpg" class="img-fluid resaltar" alt="casco">
                             <h3>Casco Rembrandt Heart</h3>
                             <p>$9,450</p>
                             <p class="colorLetras">Stok</p>
@@ -234,7 +237,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/casco4.jpg" class="img-fluid tabla" alt="casco">
+                            <img src="./imagenes/casco4.jpg" class="img-fluid resaltar" alt="casco">
                             <h3>Casco Rembrandt Kiddy Heart</h3>
                             <p>$10,450</p>
                             <p class="colorLetrasNo">No Stok</p>
@@ -243,7 +246,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/neoprene1.jpg" class="img-fluid tabla" alt="neoprene">
+                            <img src="./imagenes/neoprene1.jpg" class="img-fluid resaltar" alt="neoprene">
                             <h3>Media técnica Rip Curl Neoprene</h3>
                             <p>$5500</p>
                             <p class="colorLetras">Stok</p>
@@ -252,7 +255,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/neoprene2.jpg" class="img-fluid tabla" alt="neoprene">
+                            <img src="./imagenes/neoprene2.jpg" class="img-fluid resaltar" alt="neoprene">
                             <h3>Guantes Rip Curl 2mm Bomb</h3>
                             <p>$5400,65</p>
                             <p class="colorLetras">Stok</p>
@@ -261,7 +264,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/reloj1.jpg" class="img-fluid tabla" alt="reloj">
+                            <img src="./imagenes/reloj1.jpg" class="img-fluid resaltar" alt="reloj">
                             <h3>Reloj Rip Curl Next Digital-x</h3>
                             <p>$32,199</p>
                             <p class="colorLetras">Stok</p>
@@ -270,7 +273,7 @@
                         <div class="col-xs-12 col-md-6 col-lg-3">
                             <div class="card"></div>
                             <div class="card-body"></div>
-                            <img src="./imagenes/reloj2.jpg" class="img-fluid tabla" alt="reloj">
+                            <img src="./imagenes/reloj2.jpg" class="img-fluid resaltar" alt="reloj">
                             <h3>Reloj Rip Curl Next Digital</h3>
                             <p>$23,056</p>
                             <p class="colorLetras">Stok</p>

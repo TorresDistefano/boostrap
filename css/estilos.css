@@ -22,6 +22,7 @@
     padding: 25px;
     margin: 0px;
     text-align: center;
+
 }
 
 .blanco {
@@ -56,12 +57,82 @@
     margin: 30px 60px;
 }
 
+.trasladar{
+    animation-name: trasladar;
+    animation-iteration-count: initial;
+animation-timing-function: ease-in;
+animation-duration: 3s;
+animation-delay: 0s;
+}
 
+/* animaciones */
+.h6:hover{
+    
+    font-weight: bold;
+}
+.redes:hover{
+background-color: rgba(88, 186, 243, 0.164);
+}
+
+.negrita:hover {
+    font-weight: bold;
+}
+
+.logo{
+    transform: scale(1.2, 1.2);
+    transition-duration: 3s;
+}
+.resaltar:hover{
+    padding: 5px;
+}
+
+.colorLetrasNo:active {
+    font-weight: bolder;  
+}
+
+.colorLetras:active {
+    font-weight: bolder;
+}
+
+
+
+@keyframes  trasladar{
+    
+
+    0% {
+        opacity: 0%;
+    }
+    10% {
+        opacity: 10%;
+    }
+    20% {
+        opacity: 20%;
+    }
+    
+    40%{
+        opacity: 40%;
+    }
+    
+    60%{
+         opacity: 60%;
+    }
+    80% {
+    opacity: 80%;
+    }
+    
+    100% {
+    opacity: 100%;
+    }
+    }
+
+
+
+/* media querys */
 
 @media(min-width:769px) {
 
     .altura {
-        height: 150px;
+        height: 110px;
     }
 .alto{
     height: 450px;
